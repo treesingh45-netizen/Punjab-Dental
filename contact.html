@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact & Appointment | Punjab Dental & Medical Clinic</title>
+  <meta name="description" content="Book an appointment at Punjab Dental & Medical Clinic in Sadiqabad. Contact the clinic by phone, WhatsApp, or appointment form." />
+  <meta name="keywords" content="Dentist in Sadiqabad, dental appointment Sadiqabad, Punjab Dental Clinic contact" />
+  <meta name="theme-color" content="#08232c" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Punjab Dental & Medical Clinic home">
+        <span class="brand-copy">
+          <strong>Punjab Dental & Medical Clinic</strong>
+          <span>Sadiqabad, Pakistan</span>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">Menu</button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn btn-primary btn-small" href="#appointment">Book Appointment</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <div class="container page-banner-grid">
+        <div class="banner-copy">
+          <p class="eyebrow">Contact and Appointment</p>
+          <h1>Fast booking paths for calls, WhatsApp, and appointment requests</h1>
+          <p>The contact page is built to reduce friction and move visitors directly into an appointment conversation.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light-section" id="appointment">
+      <div class="container contact-layout">
+        <article class="appointment-card">
+          <p class="eyebrow">Appointment Form</p>
+          <h2>Book your visit</h2>
+          <p>Submit the form and your booking request will open directly in WhatsApp for instant follow-up.</p>
+          <form id="appointmentForm" class="appointment-form">
+            <div class="field-grid">
+              <label for="name">Name
+                <input id="name" name="name" type="text" required />
+              </label>
+              <label for="phone">Phone
+                <input id="phone" name="phone" type="tel" required />
+              </label>
+            </div>
+            <label for="service">Service
+              <select id="service" name="service" required>
+                <option value="">Select service</option>
+                <option>Teeth Whitening</option>
+                <option>Complete Dentures</option>
+                <option>Crown and Bridges</option>
+                <option>Digital Dental X-Ray</option>
+                <option>Root Canal Treatment</option>
+                <option>Tooth Extraction</option>
+                <option>Scaling and Polishing</option>
+                <option>Dental Fillings</option>
+              </select>
+            </label>
+            <label for="dateTime">Preferred Date and Time
+              <input id="dateTime" name="dateTime" type="datetime-local" required />
+            </label>
+            <label for="message">Message
+              <textarea id="message" name="message" placeholder="Share symptoms, urgency, or any treatment preference"></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Submit Appointment Request</button>
+          </form>
+        </article>
+
+        <aside class="details-card">
+          <div class="details-block">
+            <p class="eyebrow">Clinic Details</p>
+            <h2>Punjab Dental &amp; Medical Clinic</h2>
+            <p>Kacha Sadiqabad Rd, opposite Amin Medical Complex, Mazhar Farid Colony, Mujahid Colony, Sadiqabad, Pakistan</p>
+          </div>
+          <div class="details-block">
+            <h3>Direct Contact</h3>
+            <ul class="contact-list">
+              <li>Phone: <a href="tel:+923020111041">0302 0111041</a></li>
+              <li>Email: <a href="mailto:info@punjabdentalclinic.com">info@punjabdentalclinic.com</a></li>
+              <li>Instagram and Facebook: Punjab Dental Clinic</li>
+            </ul>
+          </div>
+          <div class="details-block">
+            <h3>Working Hours</h3>
+            <ul class="contact-list">
+              <li>Monday - Saturday: 9 AM - 9 PM</li>
+              <li>Sunday: 12 PM - 9 PM</li>
+            </ul>
+          </div>
+          <div class="details-actions">
+            <a class="btn btn-whatsapp" href="https://wa.me/923020111041?text=Assalamualaikum%2C%20I%20want%20to%20book%20an%20appointment." target="_blank" rel="noopener">WhatsApp Chat</a>
+            <a class="btn btn-outline" href="tel:+923020111041">Click to Call</a>
+          </div>
+        </aside>
+      </div>
+      <div class="container map-embed">
+        <iframe title="Punjab Dental and Medical Clinic map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Kacha+Sadiqabad+Rd+opposite+Amin+Medical+Complex+Sadiqabad+Pakistan&output=embed"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Punjab Dental &amp; Medical Clinic</h3>
+        <p>Conversion-focused contact page with repeated booking prompts and instant WhatsApp handoff.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="tel:+923020111041">0302 0111041</a></p>
+        <p>Kacha Sadiqabad Rd, Sadiqabad</p>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <ul class="social-list">
+          <li><a href="https://www.instagram.com/punjabdentalclinic" target="_blank" rel="noopener"><span class="social-tag">IG</span>Punjab Dental Clinic</a></li>
+          <li><a href="https://www.facebook.com/punjabdentalclinic" target="_blank" rel="noopener"><span class="social-tag">FB</span>Punjab Dental Clinic</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2026 Punjab Dental Solution – All Rights Reserved.</p>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/923020111041?text=Assalamualaikum%2C%20I%20need%20an%20appointment." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp</a>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
